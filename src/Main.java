@@ -22,19 +22,22 @@ public class Main {
         Array array = new Array();
         array.fillFromKeyboard();
         array.print();
-//        array = new Array();
-//        array.fillArrayWithRandomNumbers();
-//        array.print();
-//        System.out.println(array.max());
-//        System.out.println(array.min());
-//        System.out.println(array.avg());
-//        array.sortUp();
-//        array.print();
-//        array.sortDown();
-//        array.print();
-        System.out.println(array.binarySearch(3));
-        array.replace(1,6);
+        array = new Array();
+        array.fillArrayWithRandomNumbers();
         array.print();
+        System.out.println(array.max());
+        System.out.println(array.min());
+        System.out.println(array.avg());
+        array.sortUp();
+        array.print();
+        array.sortDown();
+        array.print();
+        Array array1 = new Array();
+        array1.fillFromKeyboard();
+        array1.print();
+        System.out.println(array1.binarySearch(3));
+        array1.replace(1,6);
+        array1.print();
 
 
     }

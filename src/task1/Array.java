@@ -16,7 +16,6 @@ public class Array {
             Object o = scanner.nextInt();
             array.add(o);
         }
-        scanner.close();
     }
 
     public void fillArrayWithRandomNumbers() {
